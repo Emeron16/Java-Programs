@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>African Art</div>
+        <form action="index.jsp">
+        
+        <select name="Name" size="1">
+            What do you want to bid on:
+            <option>SAPI Stone Head, SIerra Leone</option>
+            <option>Luluwa Helmet Mask, Republic of Congo</option>
+            <option>Mbembe Female Torso, Nigeria</option>
+            <option>Magdalene Odundo, Nairobi</option>
+            <option>Vezo Female Funerary Figure, Madagascar</option>
+        </select>   <br>
+            How much would you like to bid:
+            <input type="text" name="Price_Bid" required pattern="[0-9]{1,30}" />
+            <br>
+            In what format would you like to bid:
+            <select name="Currency" size="1">
+                <option>US</option>
+                <option>England</option>
+                <option>China</option>
+                <option>Euro</option>
+                <option>Russia</option>
+                <option>Japan</option>
+            </select><br>
+            <input type="submit" value="ok" name="OK" />
+        
+        </form>
+        
+    </body>
+</html>
